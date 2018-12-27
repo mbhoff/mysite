@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mark Buttenhoff | Software Engineer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+<style>
+#portfolioText {
+width: 100%;
+padding: 50px 0;
+text-align: center;
+margin-top: 20px;
+}
+</style>
+
+<script>
+function toggleVR() {
+  var x = document.getElementById("vrdiv");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function toggleIP() {
+  var x = document.getElementById("ipdiv");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function toggleRisk() {
+  var x = document.getElementById("riskdiv");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.png" alt="" /></span>
+							<h1 id="title">Mark Buttenhoff</h1>
+							<p>Software Engineer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon fa-home">Home</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon fa-user">Resume</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://github.com/mbhoff" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/markbuttenhoff" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:mbhoff@pm.me" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt"><strong>Mark Buttenhoff</strong>
+								<h2 class="alt"><strong>Software Engineer</strong>
+								<h4 class="alt"><strong>C++ | C# | Python | Java | Javascript | Lua</strong>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">View Portfolio</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2><strong>Portfolio</strong></h2>
+							</header>
+
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<!--<a href="#" class="image fit"><img src="images/estar2.png" alt="" /></a>-->
+										<a onclick="toggleVR()" class="image portfolio"><img class="image portfolio" src="images/estar2.png" alt="" /></a>
+										<header>
+											<h3 style="font-size: 24px">Virtual Reality Paramedic Simulator</h3>
+										</header>
+										<div style="portfolioText" id="vrdiv" style="display: none">
+										This was a virtual reality paramedic simulation tool developed in C# as part of a senior design class by a team of four. My responsibilities included displaying vitals information to the heads up display, particle effects, and automated testing.
+										</div>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a onclick="toggleIP()" class="image portfolio"><img class="image portfolio" src="images/imageprocessor.png" alt="" /></a>
+										<header>
+											<h3 style="font-size: 24px">Image Processor</h3>
+										</header>
+										<div style="portfolioText" id="ipdiv" style="display: none">
+										This was a image processing program written in Lua for my Digital Image Processing class. The image in the screenshot shows the result of applying an edge detection filter to an image in the program. Other features included image contrast, gamma, brightness, posterization, pseudocolor, equalization, and automated thresholding.
+										</div>
+									</article>
+
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a onclick="toggleRisk()" class="image portfolio"><img class="image portfolio" src="images/risk.png" alt="" /></a>
+										<header>
+											<h3 style="font-size: 24px">Risk Android Game</h3>
+										</header>
+										<div style="portfolioText" id="riskdiv" style="display: none">
+										This was an Android game written in Java by a team for my mobile development class. My responsibilities were included writing code to initialize the game state, handling touch screen input, and drawing the gameboard to the screen.
+									</div>
+									</article>
+
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+					<!-- About Me -->
+						<section id="about" class="three">
+							<div class="container">
+
+								<header>
+									<h2><strong>Resume</strong></h2>
+									<a href="images/markbuttenhoffresume12-27-2018.pdf" class="button scrolly" download>Download PDF</a>
+								</header>
+
+								<a class="image featured"><img src="images/markbuttenhoffresume12-27-2018.png"  style="width: 75%; height: 75%; display: block; margin-left: auto; margin-right: auto;" alt="" /></a>
+
+							</div>
+						</section>
+
+
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+						  <h2 href="#" class="icon fa-envelope"><span class="label">Email</span> <strong>mbhoff@pm.me</strong></h2>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
