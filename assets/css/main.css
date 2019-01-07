@@ -25,6 +25,11 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+
+.header-img {
+    background-image: url(images/banner.jpg);
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -2244,7 +2249,7 @@ input, select, textarea {
 
 				/*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
 				/*background-color: #81918E;*/
-				/*background-image: url("../../images/banner.jpg");*/
+				background-image: url("../../images/banner.jpg");*/
 			}
 
 			#main > section.two {
